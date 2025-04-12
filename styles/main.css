@@ -1,0 +1,49 @@
+.site-name {
+    display: inline;
+    margin: 20px 30px 20px 30px;
+    color: #ff6700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar{
+    width: 250px;
+    height: 25px;
+    border-color: #004e98;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.search-icon{
+    width: 20px;
+    height: 21px;
+    align-self: start;
+}
+
+.search-button{
+    background-color: #ff6700;
+    border-color: #004e98;
+    border-style: solid;
+    margin-left: -3px;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.pages{
+    display: flex;
+    margin-left: 30px;
+    gap: 55px;
+}
+
+.pages button{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: none;
+    border: none;
+}
